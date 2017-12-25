@@ -14,3 +14,12 @@ function johnLennonFacts(facts) {
   }
   return facts;
 }
+
+function iLoveTheBeatles(number) {
+  var beatleLove = [];
+  do {
+    beatleLove.push('I love the Beatles!');
+    number++;
+  } while(number < 15);
+  return beatleLove;
+}
